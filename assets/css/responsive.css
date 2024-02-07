@@ -1,0 +1,70 @@
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+    .toggle_btn {
+        display: block;
+    }
+
+    .wsus__sidebar {
+        left: -300px;
+    }
+
+    .wsus__sidebar.show_sidebar {
+        left: 0;
+    }
+
+    .wsus__documentation {
+        margin: 0 30px;
+    }
+
+    .common_section {
+        padding-left: 0;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+    .toggle_btn {
+        display: block;
+    }
+
+    .wsus__sidebar {
+        left: -300px;
+    }
+
+    .wsus__sidebar.show_sidebar {
+        left: 0;
+    }
+
+    .wsus__documentation {
+        margin: 0 30px;
+    }
+
+    .common_section {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 575.99px) {
+
+    .toggle_btn {
+        display: block;
+    }
+
+    .wsus__sidebar {
+        left: -270px;
+        width: 270px;
+    }
+
+    .wsus__sidebar.show_sidebar {
+        left: 0;
+    }
+
+    .wsus__documentation {
+        margin: 0 10px;
+    }
+
+    .common_section {
+        padding-left: 0;
+    }
+
+}
